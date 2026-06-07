@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliability-guided-token-compression"
+version = "0.1.0"
+description = "Reproducibility code for reliability-guided ToMe-style token compression in visual inference"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["tome", "tome.patch"]

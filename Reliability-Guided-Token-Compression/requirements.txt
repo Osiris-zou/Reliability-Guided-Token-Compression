@@ -1,0 +1,16 @@
+torch>=2.1
+torchvision>=0.16
+timm==0.9.12
+numpy
+pandas
+pillow
+tqdm
+matplotlib
+scipy
+fvcore
+einops
+pyyaml
+requests
+transformers
+lpips
+pytorch-msssim
